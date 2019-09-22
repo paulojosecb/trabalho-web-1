@@ -3,25 +3,33 @@
 <html>
     <head>
         <title>Trabalho de Web 1</title>
+        <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Open+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./css/main.css">
     </head>
-    <bod>
-        <h1>Hello Worlds</h1>
-        <script src="js/jquery.js"></script>
-        <script src="js/main.js"></script>
+    <body>
+        <h1 class="title">Trabalho 1 de Web 2 - Paulo José</h1>
 
-        <div>
-            <h2>Nova Pessoa</h2>
+        <div id="createForm">
+            <h2 class="sectionTitle">Nova Pessoa</h2>
             <input placeholder="Nome" type="text" id="name">
             <input placeholder="Email" type="text" id="email">
             <input placeholder="Senha" type="password" id="password">
-            <button onclick="createPessoa()">Criar</button>
+            <button class="confirmButton" onclick="createPessoa()">Criar</button>
         </div>
 
         <div>
-            <h2>Pessoas</h2>
+            <h2 class="sectionTitle">Pessoas</h2>
             <ul id="pessoasList">
                 
             </ul>
         </div>
-    </bod>
+
+        <div id="modal">
+
+        </div>
+
+        <script src="js/jquery.js"></script>
+        <script src="js/main.js"></script>
+    </body>
 </html>
