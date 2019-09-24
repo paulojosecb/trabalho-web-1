@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/server.ts",
-    "prod": "sucrase ./src -d ./dist --transforms typescript,imports"
+    "prod": "sucrase ./src -d ./dist --transforms typescript,imports",
+    "serve": "nodemon dist/app.js"
   },
   "author": "",
   "license": "ISC",
